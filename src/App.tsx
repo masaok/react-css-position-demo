@@ -12,8 +12,6 @@ import { ThemeProvider } from '@material-ui/styles'
 import Header from './common/Header'
 import Footer from './common/Footer'
 
-import ScrollInsideContainer from './components/ScrollInsideContainer'
-import PaperScrollDemo from './components/ScrollInsideContainer'
 import PositionAbsoluteDemo from './components/PositionAbsoluteDemo'
 
 // Override the default MUI theme:
