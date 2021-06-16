@@ -13,6 +13,7 @@ import Header from './common/Header'
 import Footer from './common/Footer'
 
 import PositionAbsoluteDemo from './components/PositionAbsoluteDemo'
+import PositionFixedOverlapDemo from './components/PositionFixedOverlapDemo'
 
 // Override the default MUI theme:
 // https://material-ui.com/customization/default-theme/
@@ -77,6 +78,7 @@ const App = (props: any) => {
             <main className={classes.content}>
               <Switch>
                 <Route exact path="/" component={PositionAbsoluteDemo} />
+                <Route exact path="/position-fixed-overlap" component={PositionFixedOverlapDemo} />
               </Switch>
             </main>
 

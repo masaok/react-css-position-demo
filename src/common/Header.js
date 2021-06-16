@@ -54,18 +54,6 @@ const Header = props => {
         <Button className={classes.button} variant="contained" href="/scroll-inside-container">
           Scroll Inside Container
         </Button>
-        {/* <Button className={classes.button} variant="contained" href="/paper-scroll-demo">
-          Paper Scroll Demo
-        </Button>
-        <Button className={classes.button} variant="contained" href="/paper-grid-scroll-demo">
-          Paper Grid Scroll Demo
-        </Button>
-        <Button className={classes.button} variant="contained" href="/paper-grid-scrollbar-demo">
-          Paper Grid Scrollbar Demo
-        </Button>
-        <Button className={classes.button} variant="contained" href="/state-variable-copy-demo">
-          State Variable Copy Demo
-        </Button> */}
       </Toolbar>
     </AppBar>
   )
